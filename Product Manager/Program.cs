@@ -1,7 +1,6 @@
-﻿// See https://aka.ms/new-console-template for more information
-
-Console.WriteLine("Hello, World!");
-
+﻿using Microsoft.Data.SqlClient;
+using Microsoft.IdentityModel.Protocols;
+using System.Configuration;
 bool isSelected = false;
 int choice;
 while (!isSelected) {
